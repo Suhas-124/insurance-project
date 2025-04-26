@@ -3,13 +3,13 @@ import sys
 import pymongo
 import certifi
 import urllib.parse
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from src.exception import MyException
 from src.logger import logging
 from src.constants import DATABASE_NAME, MONGODB_URL_KEY
 
 # Load environment variables from .env file with explicit path
-load_dotenv("/home/suhas/Music/mlops/insurance/insurance-project/.env")
+# load_dotenv("/home/suhas/Music/mlops/insurance/insurance-project/.env")
 print(f"Current working directory: {os.getcwd()}")
 print(f"Loaded MONGODB_CLUSTER_URL: {os.getenv('MONGODB_CLUSTER_URL')}")
 
