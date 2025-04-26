@@ -135,6 +135,8 @@
       AWS_DEFAULT_REGION
       ECR_REPO
 
+      optional (if you need to connect with mongodb if can connect by adding mongodb url:MONGODB_URL)
+
 31. CI-CD pipeline will be triggered at next commit and push.
 32. Now we need to activate the 5000 port of our EC2 instance:
       * Go to the instance > Security > Go to Security Groups > Edit inbound rules > add rule
